@@ -1,0 +1,40 @@
+name: itacalendar
+description: ''
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  flutter_speed_dial: ^1.2.5
+  table_calendar: ^2.2.3
+  gradient_bottom_navigation_bar: ^1.0.0+4
+  outline_material_icons: ^0.1.1
+  flutter_staggered_animations: "^0.1.2"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+   - family: nunito
+     fonts:
+       - asset: asset/Nunito-Regular.ttf
+       - asset: asset/Nunito-Light.ttf
+         weight: 300
